@@ -1,0 +1,152 @@
+.bgimg{
+	background-image:url('pic4.jpg');
+background:transparent;
+	background-size:100% 100%;
+	width:100%;
+	background-attachment:fixed;
+	top:0;
+	height:790px;
+}
+
+.headerset{
+	box-sizing:border-box;
+	padding:150px;
+}
+.headerset h2{
+	font-size:32px;
+	
+}
+.headerset h1{
+	font-size:82px;
+	font-weight:bold;
+	animation-name:animate;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-duration:3s;
+}
+@keyframes animate{
+	from{width:700px;}
+	to{width:1200px;}
+}
+.icon{
+	font-size:150px;
+}
+.ourservices{
+	padding:60px 0;
+	
+}
+.ourservices h1{
+		font-size:50px;
+	font-weight:bold;
+}
+.rowsetting{
+	padding:40px 0;
+	
+}
+.imagesetting{
+	border-radius:50%;
+
+}
+.portfolio{
+	height:1100px;
+	width:100%;
+	padding:100px 0px 50px;	
+}
+.portfolio h1{
+	font-size:50px;
+	font-weight:bold;
+}
+.ourteam h1{
+	font-weight:bold;
+	font-size:50px;
+}
+figure:hover{
+	transform:scale(1.05,1.2);
+}
+
+.footer{
+	background-color:rgb(32,33,34);
+	height:100px;
+	width:100%;
+	color:white;
+	display:flex;
+	text-align:cener;
+	justify-content:center;
+}
+	.service{
+	width:auto;
+	animation-name:guru;
+	animation-iteration-count:1;
+	animation-duration:3s;
+	animation-direction:ease-in;
+	
+}
+@keyframes guru{
+	from {width:10px;}
+	to{width:1422px;}
+}
+
+
+.card:hover{
+	transform:scale(1.05,1.02);
+}
+
+
+/*responsive*/
+@media (max-width:992px){
+
+	
+}
+@media (max-width:768px) and (max-width:991px){
+	
+}
+	
+
+@media(min-width:575px) and (max-width:767px){
+	
+
+}
+@media(min-width:480px) and (max-width:574px){
+	.headerset h2{
+	font-size:22px;
+	
+}
+.headerset h1{
+
+	font-size:30px;
+
+	font-weight:bold;
+	
+}
+
+	
+}
+@media (max-width:500px){
+	.headerset h2{
+	font-size:22px;
+	
+}
+.headerset h1{
+
+	font-size:30px;
+
+	font-weight:bold;
+	
+}
+.portfolio{
+	height:2400px;
+}
+
+.service{
+	width:auto;
+	animation-name:guru;
+	animation-iteration-count:1;
+	animation-duration:3s;
+	animation-direction:ease-in;
+	
+}
+@keyframes guru{
+	from {width:0px;}
+	to{width:485px;}
+}
+}
